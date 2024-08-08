@@ -38,9 +38,9 @@ const Create = () => {
   return (
     <div className="container mx-auto">
       <NavBar />
-      <div className="text-center px-20 mt-4">
+      <div className="text-center md:px-20 mt-4 px-6">
         <input
-          className="font-bold text-4xl text-center mb-4 mt-4 p-2 border-0 border-b-2 w-full"
+          className="max-w-3xl font-bold text-4xl text-center mb-4 mt-4 p-2 border-0 border-b-2 w-full"
           type="text"
           name=""
           id=""
@@ -54,7 +54,7 @@ const Create = () => {
           value={postData.title}
         />
         <textarea
-          className="p-2 w-full h-[65vh]"
+          className="max-w-3xl p-2 w-full h-[65vh]"
           name=""
           id=""
           placeholder="Enter description"
@@ -67,7 +67,7 @@ const Create = () => {
           value={postData.description}
         ></textarea>
         <button
-          className="btn btn-block btn-primary mt-4 mb-4"
+          className="max-w-3xl btn btn-block btn-primary mt-4 mb-4"
           onClick={publishHandler}
         >
           Publish

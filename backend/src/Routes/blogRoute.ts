@@ -111,6 +111,8 @@ blogRoute.get("/:id", async (c) => {
     },
   });
 
+  console.log(blog);
+
   return c.json({
     blog,
   });

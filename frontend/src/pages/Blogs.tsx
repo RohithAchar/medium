@@ -27,7 +27,7 @@ const Blogs = () => {
   return (
     <div className="container mx-auto">
       <NavBar />
-      <div className="px-20 my-8">
+      <div className="px-6 my-8">
         {blogs?.map((blog) => {
           return (
             <Link key={blog.id} to={`/blog/${blog.id}`}>
@@ -107,7 +107,7 @@ export const NavBar = () => {
 
 export const Card = ({ blog }: CardProps) => {
   return (
-    <div className="card bg-base-100 w-full mt-3 shadow-xl cursor-pointer">
+    <div className="mx-auto border border-slate-700 max-w-3xl card bg-base-100 w-full mt-4 shadow-xl cursor-pointer">
       <div className="card-body">
         <h2 className="card-title">{blog.title}</h2>
         <p>{blog.description.slice(0, 200) + "..."}</p>
