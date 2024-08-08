@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from "react";
+import { ChangeEvent, useState } from "react";
 import { SignUpData, SignUpSchema } from "@rohith_achar/medium";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";

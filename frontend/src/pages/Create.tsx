@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavBar } from "./Blogs";
 import { CreateBlogData } from "@rohith_achar/medium";
 import axios from "axios";

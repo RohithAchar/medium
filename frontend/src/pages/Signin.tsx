@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { LabelledInput } from "./Signup";
 import { SignUpData, SignUpSchema } from "@rohith_achar/medium";
 import { Link, useNavigate } from "react-router-dom";
